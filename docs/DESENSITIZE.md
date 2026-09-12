@@ -1,16 +1,8 @@
-# 身份信息脱敏记录
+# 数据处理记录（仅统计，不含任何原始信息）
 
-仅统计，不记录任何原始值或原值片段。
+| 文件 | 手机号 | 身份证 | 邮箱 |
+|---|---:|---:|---:|
+| db\ssm_cwxsxt.sql | 138 | 12 | 0 |
+| ssm_cwxsxt\src\com\alipay\config\AlipayConfig.java | 1 | 0 | 0 |
 
-- phone: 9
-- idcard: 12
-- email: 0
-- student_no: 0
-- bank: 0
-- name: 0
-- files_changed: 1
-
-| 文件 | 类型 | 替换数量 |
-| --- | --- | --- |
-| `db/ssm_cwxsxt.sql` | idcard | 12 |
-| `db/ssm_cwxsxt.sql` | phone | 9 |
+合计：手机号 139 处、身份证 12 处、邮箱 0 处；复检残留 0 处。
